@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import pic from "../public/john-image.png";
+import pic from "../public/john-okari.png";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#fdf3e6] md:p-12 pb-8 justify-center"
       id="about"
     >
-      <div className="p-6 ml-12">
+      <div className="p-6 ml-8">
         <h1 className="max-w-[780px] w-[100%] leading-10 text-4xl font-bold md:p-6 text-1xl md:text-2xl">
           About
         </h1>

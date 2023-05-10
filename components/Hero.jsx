@@ -12,17 +12,17 @@ const Hero = () => {
       exit={{ opacity: 0, y: 30 }}
       transition={{ duration: 2 }}
     >
-      <div  name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-32 md:pt-0 text-center">
+      <div  name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-32 md:pt-4  text-center">
         <div className="max-w-[1240px] mx-auto h-full flex p-2 justify-center items-center">
           <div>
-            <p className=" uppercase text-sm tracking-widest text-white ">
+            <p className=" uppercase tracking-widest text-white text-2xl">
               LET'S BUILD SOMETHING BEAUTIFUL
             </p>
-            <h1 className="py-3 text-white-700 text-white">
-              Hi , I'm <span className="text-[#5651e5] font-extrabold">John Okari</span> <span className="text-white">a</span>
+            <h1 className="py-3 text-white-700 text-white text-2xl">
+              Hi , I'm <span className="text-[#5651e5] font-extrabold text-3xl" >John Okari</span> <span className="text-white text-2xl">a</span>
             </h1>
   
-            <h1 className="py-3 fjalla-one md:text-3xl text-md text-[#5651e5] font-extrabold " >
+            <h1 className="py-3 fjalla-one md:text-3xl text-2xl text-[#5651e5] font-extrabold " >
               <Typewriter
                 options={{
                   strings: [
@@ -47,7 +47,7 @@ const Hero = () => {
               why settle for less when you can have the best? Let's build
               something great together
             </p>
-            <div className="flex items-center justify-between max-w-[330px] md:gap-4 gap-2 m-auto py-4">
+            <div className="flex items-center justify-between max-w-[330px] md:gap-4 gap-2 m-auto py-4 ">
               <div className="text-white rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
                 <a
                   href="https://www.linkedin.com/in/johnnokari-001/"

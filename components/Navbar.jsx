@@ -17,8 +17,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <div className="bg-[#000] w-[40%] h-[100%] px-2 items-center">
           <Link href="/">
-            <h1 className="py-6 text-5xl px-10 font-signature cursor-pointer">
-              John Okari
+            <h1 className="py-6 text-5xl px-5 font-signature cursor-pointer">
+              John
             </h1>
           </Link>
         </div>
@@ -127,24 +127,24 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="flex items-center justify-between sm:w-[60%] px-10">
-              <Link href="https://www.linkedin.com/in/kimutai01">
+              <Link href="https://www.linkedin.com/in/johnnokari-001/">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
                   <FaLinkedinIn />
                 </div>
               </Link>
 
-              <Link href="https://github.com/Kimutai01">
+              <Link href="https://github.com/JohnOkari">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
                   <FaGithub />
                 </div>
               </Link>
-              <Link href="mailto:kiprotichkimutai01@gmail.com">
+              <Link href="mailto:johnnokari@gmail.com">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
                   <AiOutlineMail />
                 </div>
               </Link>
 
-              <Link href="tel: +254790841979">
+              <Link href="tel: +254707205896">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
                   <BsPersonLinesFill />
                 </div>
