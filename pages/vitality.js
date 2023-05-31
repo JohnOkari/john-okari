@@ -81,13 +81,10 @@ function proctor() {
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> PHP
+                <RiRadioButtonFill className="pr-1" /> Nextjs
               </p>
               <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Laravel
-              </p>
-              <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Bootstrap
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
             </div>
           </div>
