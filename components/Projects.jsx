@@ -28,6 +28,22 @@ const Projects = () => {
             Work that I've done for the past 3 years
           </h1>
         </div>
+        <Link href="/vitality" className="widt">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5 ">
+            <img src="vitality.png" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              Vitality fitness
+            </h2>
+            <p className="text-[#5b6876] text-1xl  px-5 mb-2">
+            Vitality fitness is a gym that is located at Kinoo. 
+            We have the best trainers and the best equipment. 
+            We are the best gym in town if you want to look good and feel good.
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
         <Link href="/proctor" className="widt">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5 ">
             <img src="proctor.png" />
