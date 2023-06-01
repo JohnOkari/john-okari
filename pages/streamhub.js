@@ -44,7 +44,7 @@ function streanHub() {
           >
             streamHub is a YouTube inspired application.
           </p>
-          <Link href="johnokari.vercel.app">
+          <Link href="https://streamhub-johnokari.vercel.app/">
             <button className="font-lg font-semibold py-3 mt-6 px-20 text-center border-2 border-[#4c24dc] rounded-md hover:bg-[#4c24dc]">
               Demo
             </button>

@@ -92,7 +92,7 @@ const Projects = () => {
         </Link>
         <Link href="/streamhub">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">
-            <img src="/codeoverflow.png" />
+            <img src="/streamhub.png" />
             <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
               StreamHub
             </h2>
