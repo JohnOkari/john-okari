@@ -15,12 +15,13 @@ const Hero = () => {
       <div  name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-32 md:pt-4  text-center">
         <div className="max-w-[1240px] mx-auto h-full flex p-2 justify-center items-center">
           <div>
-            <p className=" uppercase tracking-widest text-white text-2xl">
+            <p className=" uppercase tracking-widest text-white text-1xl">
               LET'S BUILD SOMETHING BEAUTIFUL
             </p>
-            <h1 className="py-3 text-white-700 text-white text-2xl">
-              Hi , I'm <span className="text-[#5651e5] font-extrabold text-3xl" >John Okari</span> <span className="text-white text-2xl">a</span>
+            <h1 className="py-3 text-white-700 text-white text-5xl">
+              Hi , I'm <span className="text-[#5651e5] font-extrabold text-6xl" >John Okari</span> 
             </h1>
+            <span className="text-white text-2xl">a</span>
   
             <h1 className="py-3 fjalla-one md:text-3xl text-2xl text-[#5651e5] font-extrabold " >
               <Typewriter
