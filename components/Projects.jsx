@@ -90,6 +90,20 @@ const Projects = () => {
             </div>
           </div>
         </Link>
+        <Link href="/streamhub">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">
+            <img src="/codeoverflow.png" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+              StreamHub
+            </h2>
+            <p className="text-[#5b6876] text-1xl  px-5 mb-2 py-6">
+              This is a Youtube inspired application
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
         <Link href="/caloryze">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5">
             <img src="/caloryze.png" />

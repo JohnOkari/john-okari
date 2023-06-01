@@ -4,13 +4,13 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { BsFillArrowLeftSquareFill } from "react-icons/bs";
 
-function vitality() {
+function streanHub() {
   return (
     <div className="w-ful bg-[#181822] h-[100vh] text-white">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" absolute top-0 left-0 w-full  h-[30vh] lg:h-[40vh] bg-black/70 z-10" />
         <Image
-          src="/vitality.png"
+          src="/product.png"
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
@@ -30,9 +30,9 @@ function vitality() {
               fontWeight: "700",
             }}
           >
-           Proctor
+            streamHub
           </p>
-          {/* <h2 className="py-2 text-gray-600">Overview</h2> */}
+          <h2 className="py-2 text-gray-600">Overview</h2>
           <p
             style={{
               marginBottom: "0px",
@@ -42,20 +42,14 @@ function vitality() {
               textDecoration: "none",
             }}
           >
-           
-            Proctor provides a platform for patients to access qualified doctors in various disciplines with higher competency. 
-            They are dedicated have experience in their specialized areas and are here to deliver quality services to all clients who would like to use this plartform
+            streamHub is a YouTube inspired application.
           </p>
-          <button className="font-lg font-semibold py-3 mt-6 px-20 text-center border-2 border-[#4c24dc] rounded-md hover:bg-[#4c24dc]">
-            <a
-              href="https://vitality-fitness.vercel.app"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <Link href="johnokari.vercel.app">
+            <button className="font-lg font-semibold py-3 mt-6 px-20 text-center border-2 border-[#4c24dc] rounded-md hover:bg-[#4c24dc]">
               Demo
-            </a>
-          </button>
-          <Link href="https://github.com/JohnOkari/vitality-fitness">
+            </button>
+          </Link>
+          <Link href="https://github.com/JohnOkari/streamhub">
             <button className="font-lg font-semibold py-3 mt-6 md:ml-6 px-20 text-center border-2 border-[#4c24dc] rounded-md hover:bg-[#4c24dc]">
               Code
             </button>
@@ -78,13 +72,16 @@ function vitality() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-1 ">
               <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
-              <p className="flex items-center text-[white] py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Nextjs
+                <RiRadioButtonFill className="pr-1" /> Ruby on Rails
               </p>
               <p className="flex items-center text-[white] py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Tailwind CSS
+              </p>
+              <p className="flex items-center text-[white] py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Postgresql
+              </p>
+              <p className="flex items-center text-[white] py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Gitflow
               </p>
             </div>
           </div>
@@ -100,4 +97,4 @@ function vitality() {
   );
 }
 
-export default vitality;
+export default streanHub;
