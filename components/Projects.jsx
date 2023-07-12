@@ -28,6 +28,21 @@ const Projects = () => {
             Work that I've done for the past 3 years
           </h1>
         </div>
+        <Link href="/vision-frames" className="widt">
+          <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5 ">
+            <img src="vision-frames.png" />
+            <h2 className="text-[#fff] text-2xl my-3 font-bold group-hover:text-[#75fbfd] transition duration-500 ease-in-out p-5">
+            visionFrames
+            </h2>
+            <p className="text-[#5b6876] text-1xl  px-5 mb-2">
+            visionFrames is an e-commerce platform dedicated to providing a seamless shopping
+            experience for eyewear products. 
+            </p>
+            <div className="justify-end group-hover:flex transition duration-500 ease-in-out hidden items-end text-[#fff]">
+              <BsFillArrowUpRightSquareFill size={40} color="#4c24dc" />
+            </div>
+          </div>
+        </Link>
         <Link href="/vitality" className="widt">
           <div className="mb-10 bg-[#181922] group hover:transform hover:scale-105 transition duration-500 ease-in-out mt-5 ">
             <img src="vitality.png" />
